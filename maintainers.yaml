@@ -1,0 +1,32 @@
+# Maintainer roster for Kubescape
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "kubescape"
+    org: "kubescape"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - bezbran
+          - dwertent
+          - rotemamsa
+          - slashben
+          - lavalamp
+          - smarterclayton
+          - deads2k
+          - sttts
+          - liggitt
+          - amirmalka
+          - amitschendel
+          - craigbox
+          - matthyx
+          - krew-index-maintainers
+      - name: "reviewers"
+        members:
+          - lavalamp
+          - smarterclayton
+          - deads2k
+          - sttts
+          - liggitt
+          - cheftako
