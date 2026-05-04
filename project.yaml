@@ -58,8 +58,6 @@ legal:
 documentation:
   readme:
     path: "https://github.com/kubescape/kubescape/blob/master/README.md"
-  website:
-    path: "https://kubescape.io/"
 
 landscape:
   category: "Provisioning"
