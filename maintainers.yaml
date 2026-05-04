@@ -8,25 +8,11 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - bezbran
-          - dwertent
-          - rotemamsa
-          - slashben
-          - lavalamp
-          - smarterclayton
-          - deads2k
-          - sttts
-          - liggitt
-          - amirmalka
-          - amitschendel
-          - craigbox
           - matthyx
-          - krew-index-maintainers
+          - slashben
+          - rotemamsa
+          - amirmalka
+          - bezbran
       - name: "reviewers"
         members:
-          - lavalamp
-          - smarterclayton
-          - deads2k
-          - sttts
-          - liggitt
-          - cheftako
+          - amitschendel

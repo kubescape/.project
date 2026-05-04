@@ -1,20 +1,21 @@
 # .project metadata for Kubescape
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "kubescape"
 name: "Kubescape"
 description: "Kubescape is an open source security and compliance platform that scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code repositories, container registries and images. It detects misconfigurations according to frameworks such as the NSA-CISA,  MITRE ATT&CK® and CIS, as well as software vulnerabilities, and calculates risk scores."
 type: "project"
-project_lead: "bezbran" # TODO: AUTO-DETECTED — please verify
-cncf_slack_channel: "#kubescape" # TODO: AUTO-DETECTED — please verify
+project_lead: "matthyx"
+cncf_slack_channel: "#kubescape"
 
 maturity_log:
+  - phase: "sandbox"
+    date: "2023-09-26T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/202"
   - phase: "incubating"
-    date: "2022-12-13T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/202" # TODO: AUTO-DETECTED — please verify
+    date: "2025-01-24T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/1291"
 
 repositories:
   - "https://github.com/kubescape/kubescape"
@@ -24,39 +25,41 @@ website: "https://kubescape.io/"
 artwork: "https://landscape.cncf.io/logos/kubescape.svg"
 
 adopters:
-  path: "https://github.com/kubescape/kubescape/blob/main/ADOPTERS.md"
+  path: "https://github.com/kubescape/project-governance/blob/main/ADOPTERS.md"
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "kubescape/kubescape"
+package_managers:
+  docker: "kubescape/kubescape"
+  krew: "kubescape"
 
 social:
   twitter: "https://twitter.com/kubescape"
 
 security:
   policy:
-    path: "https://github.com/kubescape/kubescape/blob/master/SECURITY.md"
+    path: "https://github.com/kubescape/project-governance/blob/main/SECURITY.md"
   contact:
     advisory_url: "https://github.com/kubescape/kubescape/security/advisories/new"
 
 governance:
   contributing:
-    path: "https://github.com/kubescape/kubescape/blob/master/CONTRIBUTING.md"
+    path: "https://github.com/kubescape/project-governance/blob/main/CONTRIBUTING.md"
   code_of_conduct:
-    path: "https://github.com/kubescape/kubescape/blob/master/CODE_OF_CONDUCT.md"
+    path: "https://github.com/kubescape/project-governance/blob/main/CODE_OF_CONDUCT.md"
 
 legal:
   license:
-    path: "https://github.com/kubescape/kubescape/blob/master/LICENSE"
+    path: "https://github.com/kubescape/project-governance/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
 documentation:
   readme:
-    path: "https://github.com/kubescape/kubescape/blob/main/README.md"
+    path: "https://github.com/kubescape/kubescape/blob/master/README.md"
+  website:
+    path: "https://kubescape.io/"
 
 landscape:
   category: "Provisioning"
