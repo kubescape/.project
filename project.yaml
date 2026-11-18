@@ -26,7 +26,7 @@ repositories:
 
 website: "https://kubescape.io/"
 
-artwork: "https://landscape.cncf.io/logos/kubescape.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kubescape"
 
 adopters:
   path: "https://github.com/kubescape/project-governance/blob/main/ADOPTERS.md"
